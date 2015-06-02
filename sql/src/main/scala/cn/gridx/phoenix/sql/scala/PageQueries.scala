@@ -8,7 +8,7 @@ import scala.collection.mutable.ArrayBuffer
  *
  * 参考[Paged Query](http://phoenix.apache.org/paged.html)
  */
-object PageQueries {
+object PagedQueries {
     def ZkQurom = "ecs1.njzd.com:2181"
     def View = """"food:products""""
     def PK = """"pk""""
